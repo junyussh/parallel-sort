@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <fstream>
+
 using namespace std;
 namespace sort
 {
@@ -35,6 +36,7 @@ namespace sort
         }
     }
 } // namespace sort
+
 #ifdef DO_COMPILE_QUICKSORT_MAIN
 int main(int argc, char const *argv[])
 {
