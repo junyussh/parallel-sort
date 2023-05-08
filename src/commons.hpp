@@ -12,6 +12,7 @@ std::vector<int> readData(std::string filename)
         arr.push_back(num);
     }
     in.close();
+    printf("there has %d records of data\n", arr.size());
     return arr;
 }
 
